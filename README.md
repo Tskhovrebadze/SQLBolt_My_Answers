@@ -370,7 +370,7 @@ _**2.Find the names of the buildings that hold no employees**_
 ---
   
 
-# SQL Lesson 9: Queries with expressions**
+# SQL Lesson 9: Queries with expressions
 
 ---
 
@@ -467,7 +467,7 @@ _**2.Find the number of Employees of each role in the studio**_
 
   
 
-_**3.Find the total number of years employed by all Engineers.**
+_**3.Find the total number of years employed by all Engineers.**_
 
 >SELECT Role, SUM(Years_employed) FROM Employees
 >GROUP BY Role
